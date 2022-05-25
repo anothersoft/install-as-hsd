@@ -1,7 +1,7 @@
 #### config ####
 
-## install directory
-DIR="/opt"
+## install directory -- default: ${HOME}
+DIR="/opt" 
 
 ## max inbound connections -- default: 8
 MAXINBOUND=50
@@ -9,7 +9,7 @@ MAXINBOUND=50
 ## BIP37 (boolean)
 BIP="true"
 
-## HTTP-HOST -- default 127.0.0.1
+## HTTP-HOST -- default: 127.0.0.1
 HTTPHOST="0.0.0.0"
 
 ## Nameserver
